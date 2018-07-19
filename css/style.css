@@ -1,0 +1,145 @@
+body {
+    background-image: url("https://image.ibb.co/fqkgMw/dust_scratches.png");
+}
+
+.navbar {
+    overflow: hidden;
+    opacity: 0.9;
+    top: 0;
+    width: 100%;
+    height: 130px;
+}
+
+.logo {
+    width: 100%;
+    height: 210px;
+    margin-top: -45px;
+}
+
+.item-container {
+    height: 800px;
+    overflow: scroll;
+}
+
+.containerC {
+    padding: 0;
+    border: 2px solid #ECEFF1;
+    border-radius: 5px;
+}
+
+.padding-zero {
+    margin: 0;
+}
+
+.horizontal-center-row {
+    margin-bottom: 10px;
+}
+
+.menu-heading,
+.cartBox .menu-heading {
+    background-color: #FDD835;
+    width: 100%;
+    height: 45px;
+    padding-top: 7px;
+}
+
+.menu-heading span {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cart-heading {
+    background-color: #FDD835;
+    width: 100%;
+    height: 60px;
+    padding: 15px 25px;
+    text-align: left;
+}
+
+.cart-heading span {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cartButton {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.trash {
+    float: right;
+    font-size: 30px;
+    margin-top: -8px;
+    color: black;
+}
+
+.cartBox {
+    padding: 20px;
+}
+
+a.checkout:hover,
+a.checkout:active {
+    text-decoration: none
+}
+
+.checkout {
+    color: black;
+    text-align: center;
+}
+
+.totalPrice {
+    float: right;
+    margin-right: 30px;
+}
+
+.data {
+    padding: 2px;
+    margin-bottom: 15px;
+    background-color: #F5F5F5;
+    min-height: 194px;
+}
+
+.resimg {
+    float: left;
+    margin-right: 15px;
+    height: 190px;
+    width: 160px;
+}
+
+hr {
+    background-color: #BDBDBD;
+    border-color: #BDBDBD;
+    height: 2px;
+    opacity: 0.5;
+    margin: 0;
+}
+
+.data h3 {
+    color: #D50000;
+    font-size: 18px;
+    margin-top: 7px !important;
+    margin-bottom: -8px !important;
+}
+
+.fa-2x {
+    font-size: 23px;
+}
+
+.data h4 {
+    color: #4A148C;
+    line-height: 0.5;
+    margin-top: 5px !important;
+    margin-bottom: 8px !important;
+}
+
+.addToCart {
+    font-size: 18px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#addCart {
+    margin-top: 10px;
+    border: 1px solid black;
+}

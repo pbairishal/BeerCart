@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<div class="navbar">
+    <img class="logo" src='images/banner.jpg' />
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="padding-zero col-md-8 col-lg-8 col-sm-8 col-xs-8 item-container">
+            <div class="row text-center horizontal-center-row">
+                <div class="col-xs-4 col-md-4">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" id="txtSearch" />
+                        <div class="input-group-btn">
+                            <button class="btn btn-primary" type="submit" id="getMessage">
+							<span class="glyphicon glyphicon-search"></span>
+						</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-md-4">
+                    <select id="selectAlc" class="form-control">
+						<option hidden>Sort by Alcohol Content</option>
+						    <option value="low">Low to High(Alcohol Content)</option>
+							<option value="high">High to Low(Alcohol Content)</option>
+					</select>
+                </div>
+
+                <div class="col-xs-4 col-md-4">
+                    <select id="select_id2" class="form-control">				
+					</select>
+                </div>
+            </div>
+            <div>
+                <div class="row message">
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
+            <div class="containerC col-lg-12">
+                <div class="cart-heading text-center"><span>Your Cart</span>
+                    <a class="trash"><i class="fa fa-trash-o"></i></a>
+                </div>
+                <div class="cartBox">
+                    <table class='table'>
+                        <tbody class="cart-list">
+                        </tbody>
+                    </table>
+                    <hr>
+                    <div style="font-size:20px;">Total Price:<span class="totalPrice"></span>
+                        <div class="menu-heading text-center"><a class="checkout">CHECKOUT</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="js/script.js"></script>
